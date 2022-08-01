@@ -1,0 +1,36 @@
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+#foto-section{
+    display: flex;
+    justify-content: center;
+}
+
+
+#section{
+    background-image: url('/assets/saganImg.jpg');
+    height: 1500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    color: white;
+}
